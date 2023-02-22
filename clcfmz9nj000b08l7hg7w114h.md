@@ -31,9 +31,15 @@ You can use any editor you want but in this example, we'll use nano.
 copy this command at the end of the line.
 
 ```bash
-# Use fish in place of bash.
-# keep this line at the bottom of ~/.bashrc
-[ -x /bin/fish ] && SHELL=/bin/fish exec fish
+# This will tell us the path of fish binary
+# Copy it in the clipboard
+which fish
+```
+
+```bash
+# Use command sudo chsh -s <paste path of fish shell> <your username>
+# Just like:
+sudo chsh -s /usr/bin/fish username
 ```
 
 *<mark>Note: Restart your terminal and see if it works.</mark>*
@@ -124,6 +130,13 @@ Setting up the preset from [https://starship.rs/presets/pastel-powerline.html](h
 ```bash
 # Copy this command and we are good to go.
 starship preset pastel-powerline > ~/.config/starship.toml
+```
+
+* Additional plugin for fisher
+    
+
+```bash
+fisher install jorgebucaran/nvm.fish
 ```
 
 👏 Excellent job!
