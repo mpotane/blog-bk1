@@ -1,4 +1,14 @@
-# How to set up fish-shell in WSL 2
+---
+title: "How to set up fish-shell in WSL 2"
+seoTitle: "How to Setup Fish in WSL by Mark Edzel Potane"
+seoDescription: "Learn how to set up Fish shell in WSL2: install, configure, and use Fish to enhance your command-line experience in Windows. #Fish #WSL2"
+datePublished: Wed Feb 22 2023 12:37:40 GMT+0000 (Coordinated Universal Time)
+cuid: clcfmz9nj000b08l7hg7w114h
+slug: how-to-set-up-fish-shell-in-wsl-2
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672631591915/0eea1f39-131c-458d-a8de-1e1632050b71.png
+tags: linux, software-engineering, fishshell, wsl-2
+
+---
 
 ### **Let's talk about why fish. Why not use zsh?**
 
@@ -20,13 +30,7 @@ sudo apt install fish
 
 Now we need to set fish-shell as our default shell.
 
-*<mark>Note: We cannot use the chsh (change shell command) because wsl is launch via bash.exe what we can do instead is start fish via bash. It's the only safe option just like how we do it in gentoo linux.</mark>*
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672709711461/6b610f2b-09f8-4ef3-b10e-3d414355a624.gif align="center")
-
-You can use any editor you want but in this example, we'll use nano.
-
-[Nano cheatsheet -&gt;](https://www.nano-editor.org/dist/latest/cheatsheet.html)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682226142703/6410d720-2e2d-4476-87e6-25b4121cd88c.gif align="center")
 
 copy this command at the end of the line.
 
@@ -54,7 +58,7 @@ sudo chsh -s /usr/bin/fish username
 
 ### How to inherit the system-wide environment variables on startup, from ***bash***?
 
-Using the package ***bass*** we can solve just that. First, we need to install a plugin manager in fish called fisher from [git.io/fisher](http://git.io/fisher).
+Using the package ***bass*** we can solve just that. First, we need to install a plugin manager in fish called Fisher from [git.io/fisher](http://git.io/fisher).
 
 ```bash
 # This will install fisher plugin manager for us.
@@ -68,7 +72,7 @@ After installing we can now:
 fisher update
 ```
 
-Next, we will install bass from [https://github.com/edc/bass](https://github.com/edc/bass). To do this we just use fisher like this:
+Next, we will install bass from [https://github.com/edc/bass](https://github.com/edc/bass). To do this we just use Fisher like this:
 
 ```bash
 fisher install edc/bass
