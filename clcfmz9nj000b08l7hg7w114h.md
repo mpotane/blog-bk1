@@ -58,7 +58,7 @@ sudo chsh -s /usr/bin/fish username
 
 ### How to inherit the system-wide environment variables on startup, from ***bash***?
 
-Using the package ***bass*** we can solve just that. First, we need to install a plugin manager in fish called Fisher from [git.io/fisher](http://git.io/fisher).
+Using the package ***bass*** we can solve just that. First, we need to install a plugin manager in Fish called Fisher from [git.io/fisher](http://git.io/fisher).
 
 ```bash
 # This will install fisher plugin manager for us.
@@ -82,7 +82,7 @@ To use bass we can configure fish like so:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672712146403/6d61e6a4-e676-41f0-8094-84028089c12e.gif align="center")
 
-🖊️ Copy the command in *<mark>.config/fish/config.fish</mark>*
+🖊️ Copy the command in `.config/fish/config.fish`
 
 ```bash
 # Inherit system-wide environment variables.
