@@ -1,16 +1,16 @@
 ---
-title: "How I set up my dev environment."
+title: "My Development Environment Setup: Tips and Tricks"
 seoTitle: "Mark Edzel Potane blogs"
 seoDescription: "How I Setup my Development Environment."
 datePublished: Sat Dec 10 2022 12:47:13 GMT+0000 (Coordinated Universal Time)
 cuid: clbgk3yay001308miarsv64jw
-slug: how-i-set-up-my-dev-environment
+slug: my-development-environment-setup-tips-and-tricks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670583291712/aURZPXS28.png
 tags: vscode-cjevho8kk00bo1ss2lmqqjr51, wsl-2
 
 ---
 
-**⚙️ Setting up Visual Studio Code.**
+## **⚙️ Setting up Visual Studio Code.**
 
 ![](https://user-images.githubusercontent.com/35271042/118224532-3842c400-b438-11eb-923d-a5f66fa6785a.png align="center")
 
@@ -36,7 +36,7 @@ tags: vscode-cjevho8kk00bo1ss2lmqqjr51, wsl-2
 
 [Introductory Videos -&gt;](https://code.visualstudio.com/docs/getstarted/introvideos)
 
-**💻 Setting up Windows Subsystem for Linux.**
+## **💻 Setting up Windows Subsystem for Linux.**
 
 %[https://youtu.be/MrZolfGm8Zk] 
 
@@ -60,7 +60,7 @@ tags: vscode-cjevho8kk00bo1ss2lmqqjr51, wsl-2
 
 ---
 
-**🐧 Linux user and password set-up.**
+## **🐧 Linux user and password set-up.**
 
 *See the* [*Best practices for setting up a WSL development environment*](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password) *guide to learn more.*
 
