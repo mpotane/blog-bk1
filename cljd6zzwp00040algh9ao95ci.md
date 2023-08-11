@@ -1,10 +1,10 @@
 ---
-title: "Client-side data fetching in Nextjs"
+title: "How to Fetch Data on the Client Side with Next.js: A Comparison of SWR, React Query, and Apollo Client"
 datePublished: Mon Jun 26 2023 18:28:47 GMT+0000 (Coordinated Universal Time)
 cuid: cljd6zzwp00040algh9ao95ci
-slug: client-side-data-fetching-in-nextjs
+slug: how-to-fetch-data-on-the-client-side-with-nextjs-a-comparison-of-swr-react-query-and-apollo-client
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687659356340/ee093301-91ae-4891-ab26-fa841747da80.png
-tags: web-development, nextjs
+tags: web-development, nextjs, swr, tanstack-query, apollo-client
 
 ---
 
