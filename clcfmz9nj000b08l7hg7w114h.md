@@ -30,7 +30,7 @@ sudo apt install fish
 
 Now we need to set fish-shell as our default shell.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682226142703/6410d720-2e2d-4476-87e6-25b4121cd88c.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695990828610/b49c2c1d-fdcc-4671-aa63-3f6a1ad09847.gif align="center")
 
 copy this command at the end of the line.
 
@@ -80,7 +80,7 @@ fisher install edc/bass
 
 To use bass we can configure fish like so:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672712146403/6d61e6a4-e676-41f0-8094-84028089c12e.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695992828669/424e338d-c90e-4c82-9aef-235cbc9c9f3a.gif align="center")
 
 🖊️ Copy the command in `.config/fish/config.fish`
 
@@ -122,7 +122,7 @@ curl -sS https://starship.rs/install.sh | sh -s -- --bin-dir ~/.local/bin/
 
 Next, we need to initialize it using our shell.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672713593742/ccf3a644-139a-4852-9b2f-b3f2509fe409.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695992879846/635b57a7-a505-4145-ac3a-30366d5d3df8.gif align="center")
 
 ```bash
 # Add this to your fish config.
