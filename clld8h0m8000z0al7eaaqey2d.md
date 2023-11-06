@@ -1,8 +1,8 @@
 ---
-title: "Learn How to Install and Configure Copilot in Neovim using Lazynvim"
+title: "Neovim: Learn How to Install and Configure Copilot"
 datePublished: Wed Aug 16 2023 04:29:26 GMT+0000 (Coordinated Universal Time)
 cuid: clld8h0m8000z0al7eaaqey2d
-slug: learn-how-to-install-and-configure-copilot-in-neovim-using-lazynvim
+slug: neovim-learn-how-to-install-and-configure-copilot
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691750958434/f304a718-6061-4257-9181-d65c2c692d75.png
 tags: neovim, github-copilot
 
