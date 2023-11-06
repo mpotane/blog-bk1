@@ -1,10 +1,10 @@
 ---
-title: "My Development Environment Setup: Tips and Tricks"
+title: "How to setup development environment: Tips and Tricks"
 seoTitle: "Mark Edzel Potane blogs"
 seoDescription: "How I Setup my Development Environment."
 datePublished: Sat Dec 10 2022 12:47:13 GMT+0000 (Coordinated Universal Time)
 cuid: clbgk3yay001308miarsv64jw
-slug: my-development-environment-setup-tips-and-tricks
+slug: how-to-setup-development-environment-tips-and-tricks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670583291712/aURZPXS28.png
 tags: vscode-cjevho8kk00bo1ss2lmqqjr51, wsl-2
 
